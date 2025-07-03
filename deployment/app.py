@@ -4,9 +4,9 @@ import numpy as np
 import joblib
 
 # Load the model, scaler, and feature columns
-model = joblib.load('rf_model.joblib')
-scaler = joblib.load('scaler.joblib')
-feature_columns = joblib.load('feature_columns.joblib')
+model = joblib.load('deployment/rf_model.joblib')
+scaler = joblib.load('deployment/scaler.joblib')
+feature_columns = joblib.load('deployment/feature_columns.joblib')
 
 st.set_page_config(page_title="Credit Risk Prediction", layout="wide")
 st.title("Credit Risk Prediction App")
