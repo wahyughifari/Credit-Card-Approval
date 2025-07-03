@@ -2,10 +2,15 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import joblib
+import os
 
 # Load the model, scaler, and feature columns
-model = joblib.load('rf_model.joblib')
-scaler = joblib.load('scaler.joblib')
+model_path = os.path.join(os.path.dirname(__file__), 'rf_model.joblib')
+scaler_path = os.path.join(os.path.dirname(__file__), 'scaler.joblib')
+
+model = joblib.load(model_path)
+scaler = joblib.load(scaler_path)
+
 feature_columns = joblib.load('feature_columns.joblib')
 
 st.set_page_config(page_title="Credit Risk Prediction", layout="wide")
