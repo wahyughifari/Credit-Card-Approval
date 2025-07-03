@@ -2,7 +2,7 @@
 
 This project is a machine learning application that predicts whether a credit card applicant is a **good client** or **bad client**, based on their personal and financial data. It is deployed using [Streamlit](https://streamlit.io/) for interactive inference and hosted on Streamlit Cloud.
 
-## 📊 Dataset
+## Dataset
 
 The dataset consists of customer demographics and credit history. It combines:
 
