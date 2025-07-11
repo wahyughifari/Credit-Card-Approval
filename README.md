@@ -33,8 +33,7 @@ After merging and preprocessing, the dataset includes 36,457 records.
   - K-Nearest Neighbors
 
 - **Evaluation Metrics:**
-  - Precision, Recall, F1-Score
+  - Classification report
   - ROC AUC Score
-  - Confusion Matrix
 
 
