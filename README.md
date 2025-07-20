@@ -1,6 +1,6 @@
 # Credit Card Approval Prediction
 
-This project is a machine learning application that predicts whether a credit card applicant is a **good client** or **bad client**, based on their personal and financial data. It is deployed using [Streamlit](https://streamlit.io/) for interactive inference and hosted on Streamlit Cloud.
+This project is a machine learning application that predicts whether a credit card applicant is a **good client** or **bad client**, based on their personal and financial data. It is deployed using [Streamlit](https://credit-card-approved.streamlit.app/) for interactive inference and hosted on Streamlit Cloud.
 
 ## Dataset
 
